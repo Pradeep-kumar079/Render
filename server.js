@@ -36,10 +36,7 @@ app.use(
   })
 );
 
-// ✅ Handle preflight requests
-app.options("*", cors());
-
-// ✅ Serve static uploads
+app.options(/.*/, cors());
 app.use("/uploads", express.static(__dirname + "/uploads"));
 
 // ✅ MongoDB connection
