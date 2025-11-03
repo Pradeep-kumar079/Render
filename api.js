@@ -1,10 +1,12 @@
+// src/api.js
 import axios from "axios";
 
-const backendUrl =  "https://incomparable-cucurucho-7347e5.netlify.app";
+// ✅ Your correct Render backend URL
+const backendUrl = "https://render-esxj.onrender.com";
 
 const api = axios.create({
-  baseURL: backendUrl,
-  withCredentials: true,
+  baseURL: `${backendUrl}/api`, // All API routes prefixed with /api
+  withCredentials: true, // Allow cookies/auth headers
 });
 
 export default api;
