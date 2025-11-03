@@ -4,7 +4,7 @@ const Request = require("../Models/RequestModel");
 const UserModel = require("../Models/UserModel");
 
 // ✅ Use localhost for local testing
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://render-esxj.onrender.com";
 
 /* ------------------------------------------------------------------
    ✅ Send Connection Request
