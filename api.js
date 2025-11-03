@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const backendUrl =  "http://localhost:5000"; // 🔹 local backend
+const backendUrl =  "https://incomparable-cucurucho-7347e5.netlify.app";
 
 const api = axios.create({
   baseURL: backendUrl,

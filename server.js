@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 
 const allowedOrigins = [
-  "https://vocal-biscochitos-67aba0.netlify.app",
+  "https://incomparable-cucurucho-7347e5.netlify.app",
   "http://localhost:3000",
   "http://localhost:5001",
 ];
